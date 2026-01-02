@@ -324,7 +324,7 @@ p:last-child {
 }
 
 .hero-logo {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
 }
 
 .logo-image {
@@ -336,8 +336,9 @@ p:last-child {
 }
 
 .hero-tagline {
-    font-size: var(--font-size-xl);
-    color: var(--color-text-secondary);
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--color-text);
     margin-bottom: var(--spacing-md);
 }
 
