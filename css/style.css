@@ -383,6 +383,16 @@ p:last-child {
     width: auto;
 }
 
+.hero-coffee {
+    margin-top: var(--spacing-lg);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.hero-coffee a {
+    color: var(--color-yellow);
+}
+
 /* --------------------------------------------------------------------------
    Page Hero (Support/Privacy)
    -------------------------------------------------------------------------- */
