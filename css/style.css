@@ -323,36 +323,16 @@ p:last-child {
     max-width: 800px;
 }
 
-.hero-icon {
+.hero-logo {
     margin-bottom: var(--spacing-lg);
 }
 
-.app-icon-placeholder {
-    width: 120px;
-    height: 120px;
+.logo-image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
-    border-radius: 28%;
-    background: linear-gradient(135deg, var(--color-orange), var(--color-pink), var(--color-blue));
-    box-shadow:
-        0 20px 40px rgba(255, 107, 53, 0.3),
-        0 0 0 1px rgba(255, 255, 255, 0.1);
-}
-
-.hero-title {
-    font-size: var(--font-size-4xl);
-    margin-bottom: var(--spacing-sm);
-    letter-spacing: -0.02em;
-}
-
-.title-gimme {
-    background: linear-gradient(135deg, var(--color-orange), var(--color-yellow));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.title-splat {
-    color: var(--color-green);
+    display: block;
 }
 
 .hero-tagline {
