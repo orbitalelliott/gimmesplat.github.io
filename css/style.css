@@ -419,8 +419,6 @@ p:last-child {
 }
 
 .coffee-badge img {
-    height: 20px;
-    width: auto;
     vertical-align: middle;
 }
 
