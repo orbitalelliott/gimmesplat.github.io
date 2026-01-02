@@ -388,6 +388,8 @@ p:last-child {
 
 .hero-logo {
     margin-bottom: var(--spacing-md);
+    position: relative;
+    display: inline-block;
 }
 
 .logo-image {
@@ -396,6 +398,75 @@ p:last-child {
     height: auto;
     margin: 0 auto;
     display: block;
+    position: relative;
+}
+
+.hero-logo:hover .logo-image {
+    animation: glitch-img 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+
+.hero-logo::before,
+.hero-logo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hero-logo:hover::before {
+    animation: glitch-color 0.3s infinite;
+    background: url('../images/GimmeSplat_Logo_2_Website.png') center/contain no-repeat;
+    opacity: 0.8;
+    mix-blend-mode: screen;
+}
+
+.hero-logo:hover::after {
+    animation: glitch-color 0.3s infinite reverse;
+    background: url('../images/GimmeSplat_Logo_2_Website.png') center/contain no-repeat;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+}
+
+@keyframes glitch-img {
+    0%, 100% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-3px, 2px);
+    }
+    40% {
+        transform: translate(3px, -2px);
+    }
+    60% {
+        transform: translate(-2px, -3px);
+    }
+    80% {
+        transform: translate(2px, 3px);
+    }
+}
+
+@keyframes glitch-color {
+    0%, 100% {
+        transform: translate(0);
+        filter: hue-rotate(0deg);
+    }
+    25% {
+        transform: translate(5px, 0);
+        filter: hue-rotate(90deg);
+    }
+    50% {
+        transform: translate(-5px, 0);
+        filter: hue-rotate(180deg);
+    }
+    75% {
+        transform: translate(0, 5px);
+        filter: hue-rotate(270deg);
+    }
 }
 
 .hero-tagline {
