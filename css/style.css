@@ -167,17 +167,19 @@ p:last-child {
    Logo Styling
    -------------------------------------------------------------------------- */
 .logo-gimme {
-    background: linear-gradient(135deg, var(--color-orange), var(--color-yellow));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 800;
+    color: var(--color-text);
+    font-weight: 900;
 }
 
 .logo-splat {
-    color: var(--color-green);
-    font-weight: 800;
+    font-weight: 300;
 }
+
+.logo-splat .s { color: var(--color-orange); }
+.logo-splat .p { color: var(--color-yellow); }
+.logo-splat .l { color: var(--color-green); }
+.logo-splat .a { color: var(--color-blue); }
+.logo-splat .t { color: var(--color-pink); }
 
 /* --------------------------------------------------------------------------
    Navigation
