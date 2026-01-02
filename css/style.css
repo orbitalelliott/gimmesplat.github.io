@@ -181,6 +181,56 @@ p:last-child {
 .logo-splat .a { color: var(--color-blue); }
 .logo-splat .t { color: var(--color-pink); }
 
+/* Glitch effect for nav logo */
+.nav-logo {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-logo:hover .logo-gimme,
+.nav-logo:hover .logo-splat {
+    animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+
+.nav-logo:hover .logo-gimme {
+    animation-delay: 0.05s;
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+        text-shadow: none;
+    }
+    20% {
+        transform: translate(-2px, 2px);
+        text-shadow:
+            2px 0 var(--color-pink),
+            -2px 0 var(--color-blue);
+    }
+    40% {
+        transform: translate(-2px, -2px);
+        text-shadow:
+            -2px 0 var(--color-green),
+            2px 0 var(--color-orange);
+    }
+    60% {
+        transform: translate(2px, 2px);
+        text-shadow:
+            2px 0 var(--color-blue),
+            -2px 0 var(--color-pink);
+    }
+    80% {
+        transform: translate(2px, -2px);
+        text-shadow:
+            -2px 0 var(--color-orange),
+            2px 0 var(--color-green);
+    }
+    100% {
+        transform: translate(0);
+        text-shadow: none;
+    }
+}
+
 /* --------------------------------------------------------------------------
    Navigation
    -------------------------------------------------------------------------- */
