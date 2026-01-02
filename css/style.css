@@ -227,6 +227,17 @@ p:last-child {
     background: var(--color-surface);
 }
 
+.nav-other-apps {
+    color: var(--color-yellow) !important;
+    border: 1px solid var(--color-yellow);
+    border-radius: var(--radius-sm);
+}
+
+.nav-other-apps:hover {
+    background: var(--color-yellow) !important;
+    color: var(--color-background) !important;
+}
+
 /* --------------------------------------------------------------------------
    Hero Section
    -------------------------------------------------------------------------- */
@@ -421,6 +432,20 @@ p:last-child {
     margin: 0 auto;
     color: var(--color-text-secondary);
     font-size: var(--font-size-lg);
+}
+
+.explainer-cta {
+    margin-top: var(--spacing-md);
+    font-size: var(--font-size-base);
+}
+
+.explainer-cta a {
+    color: var(--color-green);
+    font-weight: 600;
+}
+
+.explainer-cta a:hover {
+    color: var(--color-yellow);
 }
 
 /* --------------------------------------------------------------------------
