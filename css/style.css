@@ -458,8 +458,12 @@ p:last-child {
 
 .coffee-badge {
     display: block;
-    margin-top: var(--spacing-sm);
+    margin: var(--spacing-sm) auto 0;
     transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.coffee-badge img {
+    margin: 0 auto;
 }
 
 .coffee-badge:hover {
