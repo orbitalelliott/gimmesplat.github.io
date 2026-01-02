@@ -377,8 +377,27 @@ p:last-child {
     width: auto;
 }
 
+.hero-free {
+    margin-top: var(--spacing-lg);
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+}
+
+.free-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--color-green), var(--color-blue));
+    color: var(--color-background);
+    font-weight: 800;
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.3em 0.8em;
+    border-radius: 2em;
+    margin-right: 0.5em;
+}
+
 .hero-coffee {
-    margin-top: var(--spacing-md);
+    margin-top: var(--spacing-sm);
     font-size: var(--font-size-sm);
     color: var(--color-text-secondary);
 }
