@@ -406,6 +406,22 @@ p:last-child {
     color: var(--color-yellow);
 }
 
+.coffee-badge {
+    display: inline-block;
+    margin-top: var(--spacing-sm);
+    transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.coffee-badge:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.coffee-badge img {
+    height: 50px;
+    width: auto;
+}
+
 /* --------------------------------------------------------------------------
    Page Hero (Support/Privacy)
    -------------------------------------------------------------------------- */
