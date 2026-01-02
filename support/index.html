@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - GimmeSplat | Apple Vision Pro</title>
+    <meta name="description" content="Get help with GimmeSplat. FAQs, troubleshooting, and contact support for the Gaussian Splat viewer on Apple Vision Pro.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Support - GimmeSplat">
+    <meta property="og:description" content="Get help with GimmeSplat. FAQs, troubleshooting, and contact support.">
+    <meta property="og:image" content="https://gimmesplat.space/images/og-image.png">
+    <meta property="og:url" content="https://gimmesplat.space/support/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Support - GimmeSplat">
+    <meta name="twitter:description" content="Get help with GimmeSplat. FAQs, troubleshooting, and contact support.">
+    <meta name="twitter:image" content="https://gimmesplat.space/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../images/app-icon.png">
+    <link rel="apple-touch-icon" href="../images/app-icon.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <span class="logo-gimme">GIMME</span><span class="logo-splat">SPLAT</span>
+            </a>
+            <div class="nav-links">
+                <a href="/support/" class="active">Support</a>
+                <a href="/privacy/">Privacy</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="splat splat-1"></div>
+            <div class="splat splat-2"></div>
+        </div>
+        <div class="container">
+            <h1>Support</h1>
+            <p>Find answers or get in touch</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <h2>Need Help?</h2>
+                <p>Can't find what you're looking for? We're here to help.</p>
+                <a href="mailto:support@gimmesplat.space" class="contact-button">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    Email Support
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+
+            <!-- Getting Started -->
+            <div class="faq-category">
+                <h3 class="faq-category-title" style="--accent: var(--color-orange)">Getting Started</h3>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is a Gaussian Splat?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A Gaussian Splat is a 3D capture created from photos or video. Unlike traditional 3D mesh models, splats use millions of tiny colored points (gaussians) to recreate a scene with photorealistic detail. They preserve lighting, reflections, and fine details that meshes often lose, making them perfect for capturing real-world moments in immersive 3D.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I import splat files?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>There are two ways to import splats:</p>
+                        <ul>
+                            <li><strong>Drag & Drop:</strong> Simply drag .ply or .splat files from the Files app into GimmeSplat</li>
+                            <li><strong>Add Button:</strong> Tap the + button in the gallery view and select files from the file picker</li>
+                        </ul>
+                        <p>GimmeSplat will automatically import your files and add them to the current gallery.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What file formats are supported?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>GimmeSplat supports:</p>
+                        <ul>
+                            <li><strong>.ply</strong> - PLY format Gaussian Splats (most common)</li>
+                            <li><strong>.splat</strong> - Compressed splat format</li>
+                        </ul>
+                        <p>Any Gaussian Splat file in these formats will work, regardless of which tool or service created it.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Where can I find Gaussian Splat files to try?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Here are some places to find or create Gaussian Splats:</p>
+                        <ul>
+                            <li><strong>Polycam</strong> - Create splats from your iPhone/iPad photos</li>
+                            <li><strong>Luma AI</strong> - Web-based splat creation from video</li>
+                            <li><strong>Postshot</strong> - Desktop software for creating splats</li>
+                            <li><strong>Sketchfab</strong> - Some creators share downloadable splat files</li>
+                        </ul>
+                        <p>You can also create your own from photos using various open-source tools.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What's the thumbnail matching feature?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>When you import a splat file, GimmeSplat automatically looks for a matching thumbnail image. If your splat is named <code>vacation.ply</code>, it will look for <code>vacation.jpg</code> or <code>vacation.png</code> in the same location.</p>
+                        <p>This makes it easy to have preview images for your splats in the gallery view without manually assigning them.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galleries -->
+            <div class="faq-category">
+                <h3 class="faq-category-title" style="--accent: var(--color-green)">Galleries</h3>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I organize splats into galleries?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! You can create unlimited galleries to organize your splats however you like. Create galleries for different projects, locations, time periods, or any other way that makes sense for your collection.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I create a new gallery?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>To create a new gallery:</p>
+                        <ol>
+                            <li>Tap the gallery selector in the top navigation</li>
+                            <li>Tap "Manage Galleries"</li>
+                            <li>Tap the + button to create a new gallery</li>
+                            <li>Enter a name for your gallery</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I switch between galleries?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tap the gallery name in the top navigation bar. A dropdown will appear showing all your galleries. Tap any gallery to switch to it instantly.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I rename or delete a gallery?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>To manage your galleries:</p>
+                        <ol>
+                            <li>Tap the gallery selector in the top navigation</li>
+                            <li>Tap "Manage Galleries"</li>
+                            <li>To rename: Tap the gallery name and edit it</li>
+                            <li>To delete: Swipe left on the gallery or tap the delete button</li>
+                        </ol>
+                        <p><strong>Note:</strong> Deleting a gallery will remove all splats in that gallery from the app.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spatial Controls -->
+            <div class="faq-category">
+                <h3 class="faq-category-title" style="--accent: var(--color-blue)">Spatial Controls</h3>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I move a splat?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Use the <strong>drag gesture</strong> to move a splat. Look at the splat, pinch and hold, then drag your hand to reposition it anywhere in your space. Release to place the splat in its new position.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I resize a splat?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Use the <strong>pinch gesture</strong> with two hands. Spread your hands apart to make the splat larger, or bring them together to make it smaller. The splat scales uniformly from its center.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I rotate a splat?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Use the <strong>twist gesture</strong>. Pinch with both hands on the splat and rotate them like turning a steering wheel. You can rotate freely in any direction.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I reset a splat's position?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tap on a splat to open its control panel, then tap the <strong>Reset</strong> button. This will return the splat to its default size, rotation, and position in front of you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Splat Sequencer -->
+            <div class="faq-category">
+                <h3 class="faq-category-title" style="--accent: var(--color-pink)">Splat Sequencer</h3>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is the Splat Sequencer?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The Splat Sequencer lets you create choreographed presentations of your splats. Record the order and position of each splat, set timing between transitions, and play it back as an immersive slideshow. Perfect for showing off a collection or creating guided experiences.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I record a sequence?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <ol>
+                            <li>Open the Sequencer from the menu</li>
+                            <li>Tap the Record button to start</li>
+                            <li>Select a splat from your gallery to add it to the sequence</li>
+                            <li>Position the splat where you want it to appear</li>
+                            <li>Repeat for each splat you want to include</li>
+                            <li>Tap Stop to finish recording</li>
+                        </ol>
+                        <p>Each splat's position, size, and rotation are recorded as part of the sequence.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I set the timing between splats?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>In the Sequencer settings, you can adjust the <strong>transition duration</strong> (how long between each splat appearing). Use the slider to set anywhere from instant transitions to several seconds between each splat.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I loop my sequence?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Toggle the <strong>Repeat</strong> option in the Sequencer controls. When enabled, the sequence will automatically restart from the beginning after the last splat, creating a continuous loop.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I add splats to a sequence while paused?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! You can pause playback at any time and add new splats to the sequence. The new splats will be inserted at the current position in the sequence.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Metadata & Search -->
+            <div class="faq-category">
+                <h3 class="faq-category-title" style="--accent: var(--color-yellow)">AI Metadata & Search</h3>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is ml-sharp?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>ml-sharp</strong> is our free companion tool for Mac and PC. It analyzes your splat thumbnail images and generates AI metadata including:</p>
+                        <ul>
+                            <li>Automatic captions describing the scene</li>
+                            <li>Content tags for categorization</li>
+                            <li>Face detection with emotion and age estimation</li>
+                            <li>NSFW content flagging</li>
+                        </ul>
+                        <p>The metadata is saved as JSON files that GimmeSplat automatically imports alongside your splats.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do captions and tags get added?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Use ml-sharp on your computer to process your splat thumbnails. It generates a JSON file for each image (e.g., <code>vacation.json</code> for <code>vacation.jpg</code>). When you import your .ply file into GimmeSplat, it automatically looks for and imports the matching JSON metadata file.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What does the sparkle badge mean?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The sparkle badge indicates that a splat has AI-generated metadata attached. Splats with this badge can be searched by caption, filtered by tags, and have additional information like emotion and age detection available.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I search my gallery?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Use the search bar at the top of the gallery view. Type to search by:</p>
+                        <ul>
+                            <li>File name</li>
+                            <li>AI-generated captions (for splats with metadata)</li>
+                            <li>Tags (for splats with metadata)</li>
+                        </ul>
+                        <p>Results update in real-time as you type.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I filter by emotion/age?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tap the filter icon next to the search bar to reveal filter options. You can filter by:</p>
+                        <ul>
+                            <li><strong>Emotion:</strong> Happy, Sad, Surprised, Neutral, etc.</li>
+                            <li><strong>Age range:</strong> Filter by detected ages in the splat</li>
+                        </ul>
+                        <p>These filters only work on splats that have AI metadata from ml-sharp.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What's the NSFW filter?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>When ml-sharp processes your images, it can flag content that may be inappropriate. In GimmeSplat's Settings, you can enable the <strong>NSFW filter</strong> to hide any splats that have been flagged. This is useful if you're showing your gallery to others.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Troubleshooting -->
+            <div class="faq-category">
+                <h3 class="faq-category-title" style="--accent: var(--color-orange)">Troubleshooting</h3>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Why isn't my splat loading?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>If a splat isn't loading, check:</p>
+                        <ul>
+                            <li><strong>File format:</strong> Make sure it's a valid .ply or .splat Gaussian Splat file (not a regular 3D mesh)</li>
+                            <li><strong>File size:</strong> Very large splats may take longer to load or exceed device memory</li>
+                            <li><strong>File corruption:</strong> Try re-exporting the splat from your original source</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>The app is using too much memory</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Gaussian Splats can be memory-intensive. To reduce memory usage:</p>
+                        <ul>
+                            <li><strong>Close unused splats:</strong> Tap a splat and select Close to remove it from the active view</li>
+                            <li><strong>Check Settings:</strong> Adjust quality settings if available</li>
+                            <li><strong>Restart the app:</strong> This clears any accumulated memory</li>
+                        </ul>
+                        <p>Only splats you actively open are loaded into memory - splats in your gallery list don't consume memory until viewed.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>My splat appears too small/large</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Splats may import at unexpected sizes depending on how they were captured. Use the <strong>pinch gesture</strong> with two hands to resize the splat to your preferred size. You can also tap the splat and use the Reset button to return it to default size.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Privacy & Data -->
+            <div class="faq-category">
+                <h3 class="faq-category-title" style="--accent: var(--color-green)">Privacy & Data</h3>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is my data private?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>100% private.</strong> All your data stays on your device. GimmeSplat:</p>
+                        <ul>
+                            <li>Has no cloud sync or server connection</li>
+                            <li>Collects no analytics or usage data</li>
+                            <li>Doesn't know how you use the app</li>
+                            <li>Requires no account or sign-up</li>
+                        </ul>
+                        <p>Your splats, galleries, and metadata never leave your Apple Vision Pro.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I delete a splat?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>To delete a splat:</p>
+                        <ol>
+                            <li>In the gallery view, long press on the splat thumbnail</li>
+                            <li>Tap <strong>Remove</strong> from the context menu</li>
+                            <li>Confirm the deletion</li>
+                        </ol>
+                        <p>This removes the splat from GimmeSplat. The original file on your device (if imported from Files) is not affected.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I delete an entire gallery?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>To delete a gallery:</p>
+                        <ol>
+                            <li>Tap the gallery selector in the top navigation</li>
+                            <li>Tap <strong>Manage Galleries</strong></li>
+                            <li>Swipe left on the gallery you want to delete, or tap the delete button</li>
+                            <li>Confirm the deletion</li>
+                        </ol>
+                        <p><strong>Warning:</strong> Deleting a gallery permanently removes all splats in that gallery from the app.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Still Need Help -->
+    <section class="help-cta">
+        <div class="container">
+            <h2>Still Need Help?</h2>
+            <p>We're happy to assist with any questions.</p>
+            <a href="mailto:support@gimmesplat.space" class="contact-button">
+                Contact Support
+            </a>
+            <p class="coffee-note">
+                GimmeSplat is free forever. If it's helped you, consider
+                <a href="https://buymeacoffee.com/orbitalapps">buying me a coffee</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-gimme">GIMME</span><span class="logo-splat">SPLAT</span>
+                    <p>Your Gaussian Splats in Spatial Reality</p>
+                </div>
+                <div class="footer-links">
+                    <h4>App</h4>
+                    <a href="https://apps.apple.com/app/gimmesplat/idXXXXXXXXX">Download</a>
+                    <a href="/support/">Support</a>
+                    <a href="/privacy/">Privacy Policy</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <a href="mailto:support@gimmesplat.space">support@gimmesplat.space</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Orbital Apps</h4>
+                    <a href="https://orbitalapps.space">orbitalapps.space</a>
+                    <a href="https://orbitalgallery.space">Orbital Gallery</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Part of <a href="https://orbitalapps.space">Orbital Apps</a></p>
+                <p class="copyright">&copy; 2025 Orbital Apps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
